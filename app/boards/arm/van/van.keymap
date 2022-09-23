@@ -40,7 +40,7 @@
 // ------------------------------------------------------------------------------------------------
 			bindings = <
 	&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC &kp BSPC
-	&trans  &kp LC(LA(P))  &kp LC(LA(O))  &kp LC(LA(G))  &none  &none &none &mt LSHFT SEMI &kp KP_MINUS  &kp LBKT  &kp RBKT &none          
+	&trans  &kp LC(LA(P))  &kp LC(LA(O))  &kp LC(LA(G))  &none  &none &none &mt LSHFT COLON &kp KP_MINUS  &kp LBKT  &kp RBKT &none          
 	&trans   &none &none  &kp LC(LA(E))  &none  &none  &none &none &kp COMMA &kp DOT &kp FSLH          &none
 	&none &none &none &none &none &kp SPACE          &kp SPACE                     &none  &none  &none 
 			>;
@@ -56,9 +56,9 @@
 // ------------------------------------------------------------------------------------------------
 			bindings = <
 	&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp BSPC &kp BSPC
-	&kp TILDE  &kp LS(BSLH)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F12 &trans          
-	&trans   &trans &trans  &trans  &trans  &trans  &trans &trans  &trans &trans &trans          &trans
-	&trans &trans &trans    &trans &trans &trans         &trans                     &trans  &trans  &trans 
+	&kp TILDE  &kp LS(BSLH)  &none  &none  &kp PIPE  &none  &kp SEMI  &kp COLON  &kp UNDER  &kp EQUAL &none &trans          
+	&none   &none &none  &none  &none  &none  &none &none  &none &kp DOT &none          &none
+	&none &none &none    &none &none &none         &none                     &none  &none  &none
 			>;
 		};
 		
