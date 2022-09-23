@@ -11,17 +11,14 @@
 
 / {
     macros {
-        scrnsht: zed_em_kay {
+        zed_em_kay: zed_em_kay {
             label = "ZM_zed_em_kay";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp LGUI>
-		, <&macro_press &kp LSHFT>
-		, <&macro_press &kp LCTRL>
-                , <&macro_release &kp LGUI>
-		, <&macro_release &kp LSHFT>
-		, <&macro_release &kp LCTRL>
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp Z &kp M &kp K>
+                , <&macro_release &kp LSHFT>
                 ;
         };
     };
@@ -56,7 +53,7 @@
 // |   BT 4  |      |      |             TOG RGB                | PRT SCR |       |       |  DEL  |
 // ------------------------------------------------------------------------------------------------
 			bindings = <
-	&scrnsht  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans &trans
+	&zed_em_kay  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans &trans
 	&trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp SQT  &kp SEMI &trans          
 	&trans   &trans &trans  &kp DEL  &trans  &trans  &trans &kp PIPE  &trans &trans &trans          &mo 3
 	&kp LGUI &trans &trans  &trans &trans &trans          &trans                     &trans  &trans  &trans 
