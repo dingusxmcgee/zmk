@@ -40,9 +40,9 @@
 // ------------------------------------------------------------------------------------------------
 			bindings = <
 	&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC &kp BSPC
-	&trans  &kp LC(LA(P))  &kp LC(LA(O))  &kp LC(LA(G))  &trans  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp SQT  &kp SEMI &trans          
-	&trans   &trans &trans  &kp DEL  &trans  &trans  &trans &kp PIPE  &trans &trans &trans          &mo 3
-	&kp LGUI &trans &trans  &trans &trans &trans          &trans                     &trans  &trans  &trans 
+	&trans  &kp LC(LA(P))  &kp LC(LA(O))  &kp LC(LA(G))  &none  &none &none &mt LSHFT SEMI &kp KP_MINUS  &kp LBKT  &kp RBKT &none          
+	&trans   &none &none  &kp LC(LA(E))  &none  &none  &none &none &kp COMMA &kp DOT &kp FSLH          &none
+	&none &none &none &none &none &kp SPACE          &kp SPACE                     &none  &none  &none 
 			>;
 		};
 
