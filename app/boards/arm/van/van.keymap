@@ -73,7 +73,7 @@
 			bindings = <
 	&lt 4 ESC &none  &none  &none  &none &none &none  &none &kp UP  &none  &none  &none &none
 	&none  &none  &none  &none  &none  &none  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none &none          
-	&bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1  &none  &none  &none  &none &none  &none &none &none          &none
+	&none   &none &none &none  &none  &none  &none &none  &none &none &none          &none
 	&none &none &none    &none &trans &none         &trans                     &none  &none  &none 
 			>;
 		};
@@ -87,7 +87,7 @@
 // |   BT 4  |      |      |             TOG RGB                | PRT SCR |       |       |  DEL  |
 // ------------------------------------------------------------------------------------------------
 			bindings = <
-	&trans &reset  &kp W  &none  &none &none &none  &none &none  &none  &bt BT_SEL 0  &bt BT_SEL 1 &bootloader
+	&trans &reset  &none  &none  &none &none &none  &none &none  &none  &bt BT_SEL 0  &bt BT_SEL 1 &bootloader
 	&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none &bt BT_CLR          
 	&none   &none &none  &none  &none  &none  &none &none  &none &none &none          &none
 	&none &none &none    &none &none &none         &none                     &none  &none  &none 
