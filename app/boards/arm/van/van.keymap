@@ -87,7 +87,7 @@
 // |   BT 4  |      |      |             TOG RGB                | PRT SCR |       |       |  DEL  |
 // ------------------------------------------------------------------------------------------------
 			bindings = <
-	&trans &reset  &none  &none  &none &none &none  &none &none  &none  &bt BT_SEL 0  &bt BT_SEL 1 &bootloader
+	&trans &reset  &kp W  &none  &none &none &none  &none &none  &none  &bt BT_SEL 0  &bt BT_SEL 1 &bootloader
 	&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none &bt BT_CLR          
 	&none   &none &none  &none  &none  &none  &none &none  &none &none &none          &none
 	&none &none &none    &none &none &none         &none                     &none  &none  &none 
